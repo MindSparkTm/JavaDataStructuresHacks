@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="493.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.MainController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label layoutX="46.0" layoutY="68.0" prefWidth="110.0" text="Enter your name :" />
+    <Label layoutX="46.0" layoutY="150.0" prefWidth="158.0" text="Enter any name to match :" />
+    <TextField fx:id="fname" layoutX="232.0" layoutY="65.0" onAction="#generateRandom" prefWidth="200.0" />
+    <TextField id="lname" fx:id="mname" layoutX="232.0" layoutY="144.0" onAction="#generateRandom" prefWidth="200.0" />
+    <Button layoutX="203.0" layoutY="202.0" mnemonicParsing="false" onAction="#generateRandom" text="Submit" />
+  </children>
+</AnchorPane>
